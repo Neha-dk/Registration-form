@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="theme.css">
 </head>
 <!-- This is version2 -->
+
 <body>
     <div class="Head">
         <h1> Employee Registration</h1>
@@ -13,48 +14,50 @@
     <form>
         <div class="FormClass">
 
-            <label>First Name</label><br>
+            <div class="Fields"><label>First Name</label><br></div>
             <input type="text" name="FN"><br>
-            <label>Last Name</label><br>
+            <div class="Fields"><label>Last Name</label><br></div>
             <input type="text" name="LN"><br>
-            <label>Mail ID</label><br>
+            <div class="Fields"><label>Mail ID</label><br></div>
             <input type="text" name="email"><br>
-            <label>Password</label><br>
+            <div class="Fields"><label>Password</label><br></div>
             <input type="password" name="pswd"><br>
             <div class="GenderClass">
-                <label>Gender</label><br>
+                <div class="Fields"><label>Gender</label><br></div>
                 <input type="radio" name="gender" value="male">Male
                 <input type="radio" name="gender" value="female">Female<br>
             </div>
-            <label>Country</label><br>
+            <div class="Fields"><label>Country</label><br></div>
             <select class="Country">
                 <option value="India">India</option>
                 <option value="Sri Lanka">Sri Lanka</option>
                 <option value="China">China</option>
                 <option value="Japan">Japan</option>
-                
+
             </select><br>
-            <label>State</label><br>
+            <div class="Fields"><label>State</label><br></div>
             <select class="State">
                 <option value="Andhra Pradesh">Andhra Pradesh</option>
                 <option value="Mumbai">Mumbai</option>
                 <option value="Tamilnadu">Tamilnadu</option>
                 <option value="Delhi">Delhi</option>
-                
+
             </select><br>
-            <label>Mobile Number</label><br>
+            <div class="Fields"><label>Mobile Number</label><br></div>
             <input type="text" name="mobile"><br>
             <div class="HobbiesClass">
-                <label>Hobbies</label><br>
+                <div class="Fields"><label>Hobbies</label><br></div>
                 <input id="1" type="checkbox" name="Hobbies" value="Singing"> Singing<br>
                 <input type="checkbox" name="Hobbies" value="Dancing"> Dancing<br>
                 <input type="checkbox" name="Hobbies" value="Story Writing"> Story Writing<br>
                 <input type="checkbox" name="Hobbies" value="Games"> Games<br><br>
             </div>
-            <label>Address</label><br>
+            <div class="Fields"><label>Address</label><br></div>
             <textarea name="Address">Where is your House</textarea><br>
-            <button class="Cancel">Cancel</button>
-            <button class="Submit">Submit</button>
+            <div class="SubmissionClass" align= "right">
+                <button class="Cancel">Cancel</button>
+                <button class="Submit">Submit</button>
+            </div>
 
         </div>
 

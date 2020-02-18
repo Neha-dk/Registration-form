@@ -8,10 +8,10 @@ body .FormClass
     margin : 30px 30px 0px;
     padding: 10px;
 }
-.FormClass .field
+.FormClass .fields
 {
-    margin-top: 2PX;
-    margin-bottom: 6px;
+    margin-top: 5PX;
+  
 }
 .FormClass select
 {
@@ -27,7 +27,7 @@ body .FormClass
 {
     background-color : #a9a9a9 ;
 }
-button
+.SubmissionClass
 {
-    float: right;
+    align-content: right ;
 }
