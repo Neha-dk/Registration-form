@@ -1,19 +1,19 @@
-body .FormClass
+body .Form-class
 {
     background-color: #d3d3d3;
 
 }
-.FormClass
+.Form-class
 {
-    margin : 30px 30px 0px;
+    margin : 30px 30px;
     padding: 10px;
 }
-.FormClass .fields
+.Form-class .fields
 {
-    margin-top: 5PX;
+    margin-top: 5px;
   
 }
-.FormClass select
+.Form-class select
 {
     margin-top: 2PX;
     margin-bottom: 6px;
@@ -26,8 +26,4 @@ body .FormClass
 .cancel
 {
     background-color : #a9a9a9 ;
-}
-.SubmissionClass
-{
-    align-content: right ;
 }
