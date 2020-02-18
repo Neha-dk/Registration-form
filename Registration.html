@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Employee Form</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+
+<body>
+    <div class="Head">
+        <h1> Employee Registration</h1>
+    </div>
+    <!-- <form action="" method="POST"> -->
+    <form>
+        <div class="FormClass">
+
+            <label>First Name</label><br>
+            <input type="text" name="FN"><br>
+            <label>Last Name</label><br>
+            <input type="text" name="LN"><br>
+            <label>Mail ID</label><br>
+            <input type="text" name="email"><br>
+            <label>Password</label><br>
+            <input type="password" name="pswd"><br>
+            <div class="GenderClass">
+                <label>Gender</label><br>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female<br>
+            </div>
+            <label>Country</label><br>
+            <select class="Country">
+                <option value="India">India</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="China">China</option>
+                <option value="Japan">Japan</option>
+                
+            </select><br>
+            <label>State</label><br>
+            <select class="State">
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Delhi">Delhi</option>
+                
+            </select><br>
+            <label>Mobile Number</label><br>
+            <input type="text" name="mobile"><br>
+            <div class="HobbiesClass">
+                <label>Hobbies</label><br>
+                <input id="1" type="checkbox" name="Hobbies" value="Singing"> Singing<br>
+                <input type="checkbox" name="Hobbies" value="Dancing"> Dancing<br>
+                <input type="checkbox" name="Hobbies" value="Story Writing"> Story Writing<br>
+                <input type="checkbox" name="Hobbies" value="Games"> Games<br><br>
+            </div>
+            <label>Address</label><br>
+            <textarea name="Address">Where is your House</textarea><br>
+            <button class="Cancel">Cancel</button>
+            <button class="Submit">Submit</button>
+
+        </div>
+
+
+    </form>
+</body>
+
+</html>

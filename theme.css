@@ -1,0 +1,33 @@
+body .FormClass
+{
+    background-color: #d3d3d3;
+
+}
+.FormClass
+{
+    margin : 30px 30px 0px;
+    padding: 10px;
+}
+.FormClass .field
+{
+    margin-top: 2PX;
+    margin-bottom: 6px;
+}
+.FormClass select
+{
+    margin-top: 2PX;
+    margin-bottom: 6px;
+}
+.submit
+{
+    background-color: #003399;
+}
+
+.cancel
+{
+    background-color : #a9a9a9 ;
+}
+button
+{
+    float: right;
+}
