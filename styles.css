@@ -1,0 +1,22 @@
+.form-class
+{
+    background-color: #d3d3d3;
+    margin: 30px;
+    padding: 10px;
+}
+.labels
+{
+    margin: 0 0 2px 3px;
+}
+.field-values
+{
+    margin: 0 0 6px 3px
+}
+.reset
+{
+    background-color: #808080;
+}
+.submit
+{
+    background-color: #0000ff;
+}
