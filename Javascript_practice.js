@@ -15,4 +15,8 @@ function objects()
 
 }
 
+function buttonSubmission(Expression)
+{
+    alert(Expression);
+}
 objects();
