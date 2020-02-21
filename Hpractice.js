@@ -64,6 +64,10 @@ greeting = function(v1,v2,v3){
 }
 greeting.apply(obj,x);
 
+//bind()
+var bound = greeting.bind(obj); 
+console.log(bound("In","bind","example"));
+
 //Immediately Invoked Function Expression(IIFE)
 //1 - no need to call this function. It is self-invoking.
 
