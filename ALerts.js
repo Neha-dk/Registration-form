@@ -9,4 +9,3 @@ to_be_alerted.forEach(Display);
 //debugger;
 alert(message);
 obj = new Date();   
-document.getElementById("date_day").innerHTML = obj.getFullYear();

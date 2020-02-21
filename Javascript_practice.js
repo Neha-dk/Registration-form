@@ -28,5 +28,3 @@ function headingEvent()
     //console.log(days[0]);
 
 }
-objects();
-headingEvent();
