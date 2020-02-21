@@ -64,3 +64,50 @@ greeting = function(v1,v2,v3){
 }
 greeting.apply(obj,x);
 
+//Immediately Invoked Function Expression(IIFE)
+//1 - no need to call this function. It is self-invoking.
+
+(function () {
+    var aName = "Hey.. I'm in IIFE-1";
+    console.log(aName);
+})();
+
+//2
+var result = (function () {
+    var name = "Hey.. I'm in IIFE-2";  
+    console.log(name); 
+})();
+console.log("hi");
+result;// observation- need not mention this anywhere. It is called automatically only once.
+
+//Scoping
+//1
+var hero = "Batman";
+if(true) {
+    var hero = "Superman";
+}
+console.log(hero);
+
+//Hoisting
+
+(function() {  //IIFE
+    theHero(); 
+    return;
+    function theHero() {
+        console.log("Arrow");
+    }
+ })();
+
+// Prototyping
+function Person(first, last) {
+    this.firstName = first;
+    this.lastName = last;
+  }
+  
+  Person.nationality = "Indian"; // We cannot modify a prototype
+  
+  var s1 = new Person("Harry","Potter");
+  var s2 = new Person("Perry","Park");
+  console.log(s1.firstName)
+  console.log(s2.lastName)
+  console.log(s1.nationality)// Prints undefined
