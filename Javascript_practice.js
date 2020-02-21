@@ -19,4 +19,14 @@ function buttonSubmission(Expression)
 {
     alert(Expression);
 }
+
+function headingEvent()
+{
+    var date = new Date();
+    let days = {0:"Sunday", 1:"Monday", 2:"Tuesday",3:"Wednesday",4:"Thursday",5:"Friday",6:"Saturday"};
+    document.getElementById("date_day").innerHTML =days[date.getDay()];
+    //console.log(days[0]);
+
+}
 objects();
+headingEvent();

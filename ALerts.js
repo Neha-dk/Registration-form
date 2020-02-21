@@ -1,4 +1,3 @@
-
 function Display(value)
 {
     message+=value;
@@ -11,4 +10,3 @@ to_be_alerted.forEach(Display);
 alert(message);
 obj = new Date();   
 document.getElementById("date_day").innerHTML = obj.getFullYear();
-window.Animation();
