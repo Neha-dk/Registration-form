@@ -7,13 +7,14 @@ function objects()
     // console.log(countries1, Country2);
     // countries1 ["Ïndia"]= countries1.Ïndia.concat("Mumbai");
     // console.log(countries1, Country2.Ïndia);
-    //Why narasinga??
+    //Why narasinga??  ANS: Because it is creating a protoyped object
     obj1 = {"Q":1,"w":2,"e":3};
     obj2 = Object.create(obj1);
     obj2.w=4
-    console.log(obj1,obj2, obj1===obj2, obj2.Q );    
+    console.log(obj1,obj2._p, obj1===obj2, obj2.Q );    
 
 }
+objects();
 
 function buttonSubmission(Expression)
 {
