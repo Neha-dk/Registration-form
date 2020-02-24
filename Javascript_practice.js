@@ -36,6 +36,26 @@ function event_key_down()
 }
 function blur_event()
 {
-    var x = document.getElementById("FName");
-    x.value = x.value.toUpperCase();
+    var fn = document.getElementById("FName");
+    var ln = document.getElementById("LName")
+    alert("Hi!!...!!!"+fn.value+" "+ln.value);
 }
+
+function prototyped_example()
+{
+    function Person(first, last, age, eye) {
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+        this.eyeColor = eye;
+      }
+
+      var myFather = new Person("John", "Doe", 50, "blue");
+      var myMother = new Person("Sally", "Rally", 48, "green");
+      
+      console.log(myFather,myMother);
+      
+      
+}
+
+prototyped_example();
