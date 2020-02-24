@@ -14,8 +14,6 @@ function objects()
     console.log(obj1,obj2._p, obj1===obj2, obj2.Q );    
 
 }
-objects();
-
 function buttonSubmission(Expression)
 {
     alert(Expression);
