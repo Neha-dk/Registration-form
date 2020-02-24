@@ -35,3 +35,8 @@ function event_key_down()
     // document.getElementById("Events").reset();
 
 }
+function blur_event()
+{
+    var x = document.getElementById("FName");
+    x.value = x.value.toUpperCase();
+}
