@@ -28,3 +28,10 @@ function headingEvent()
     //console.log(days[0]);
 
 }
+
+function event_key_down()
+{
+    alert("To be filled by the admin");
+    // document.getElementById("Events").reset();
+
+}
