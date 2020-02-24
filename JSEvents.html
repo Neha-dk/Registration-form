@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body onload="fun4()">
+
+<p>onkeydown example</p>
+
+onkeydown: <input type="text" onkeydown="fun1()"><br><br>
+onkeyup: <input type="text" onkeyup="fun2()"><br><br>
+onkeypress: <input type="text" onkeypress="fun3()"><br><br>
+ondblclick: <input type="button" ondblclick="fun5()" value="double click me"><br><br>
+onmousemove: <input type="button" onmousemove="fun6()" value="move mouse"><br><br>
+onmousedown: <input type="button" onmousedown="fun7()" value = "mouse down"><br><br>
+<script>
+function fun1() {
+  alert("onkeydown event triggered");
+}
+function fun2() {
+  alert("onkeyup event triggered");
+}
+function fun3() {
+  alert("onkeypress event triggered");
+}
+function fun4(){
+  alert("onload event triggered");
+}
+
+function fun5()
+{
+  alert("ondblclick event triggered");
+}
+function fun6()
+{
+  alert("onmousemove event trigered");
+}
+function fun7()
+{
+  alert("onmousedown event triggered");
+}
+</script>
+
+</body>
+</html>
