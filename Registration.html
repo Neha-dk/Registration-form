@@ -5,37 +5,43 @@
         </title>
         <link type="text/css" rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <form action="" method="POST">
+    <body onload="DisplayEmployeeDetails()">
+        <form id="registrationForm" >
             <div class="form-class">
                 <h2>EMPLOYEE REGISTRATION</h2>
                 <div class="labels">
                     <label>First Name</label>
                 </div>
                 <div class="field-values">
-                    <input type="text" name="fn">
+                    <input type="text" name="FirstName">
 
                 </div>
                 <div class="labels">
                     <label>Last Name</label>
                 </div>
                 <div class="field-values">
-                    <input type="text" name="ln">
+                    <input type="text" name="LastName">
                     
                 </div>
                 <div class="labels">
                     <label>Email id</label>
                 </div>
                 <div class="field-values">
-                    <input type="text" name="email">
+                    <input type="text" name="Email">
                     
                 </div>
                 <div class="labels">
                     <label>Password</label>
                 </div>
                 <div class="field-values">
-                    <input type="text" name="password">
-                    
+                    <input type="password" name="Password">  
+                </div>
+                <div class="labels">
+                    <label>DOB</label>
+                </div>
+                <div class="field-values">
+                    <input type="date" name="Dob">
+
                 </div>
                 <div class="labels">
                     <label>Gender</label>
@@ -48,7 +54,7 @@
                     <label>Country</label>
                 </div>
                 <div class="field-values">
-                    <select value="country">
+                    <select name="country" value="country">
                         <option name="india">India</option>
                         <option name="australia">Australia</option>
                         <option name="switzerland">Switzerland</option>
@@ -60,12 +66,12 @@
                     <label>State</label>
                 </div>
                 <div class="field-values">
-                    <select value="state">
-                        <option name="ap">Andhra Pradesh</option>
-                        <option name="tamil">Tamilnadu</option>
-                        <option name="odisha">Odisha</option>
-                        <option name="delhi">Delhi</option>
-                        <option name="manipur">Manipur</option>
+                    <select name="state" value="state">
+                        <option>Andhra Pradesh</option>
+                        <option>Tamilnadu</option>
+                        <option>Odisha</option>
+                        <option>Delhi</option>
+                        <option>Manipur</option>
                     </select>                   
                 </div>
                 <div class="labels">
@@ -78,16 +84,16 @@
                     <label>Hobbies</label>
                 </div>
                 <div class="field-values">
-                    <input type="checkbox" name="singing">Singing<br>
-                    <input type="checkbox" name="dancing">Dancing<br>
-                    <input type="checkbox" name="writing">Writing<br>
-                    <input type="checkbox" name="painting">Painting<br>
+                    <input type="checkbox" name="hobbies">Singing<br>
+                    <input type="checkbox" name="hobbies">Dancing<br>
+                    <input type="checkbox" name="hobbies">Writing<br>
+                    <input type="checkbox" name="hobbies">Painting<br>
                 </div>
                 <div class="labels">
                     <label>Address</label>
                 </div>
                 <div class="field-values">
-                    <textarea name="address"></textarea>
+                    <textarea name="Address">Where is your house</textarea>
                 </div>
                 <div>
                     <input class="reset" type="reset" name="reset" align="right">
@@ -95,5 +101,9 @@
                 </div>
             </div>
         </form>
+        <p id="demo"><button onclick="AddEmployee()">Register</button></p>
+    <table id="employeelist" border="1">
+    </table>
+        <script src = "register.js"></script>
     </body>
 </html>
