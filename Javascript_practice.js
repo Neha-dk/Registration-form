@@ -52,10 +52,14 @@ function prototyped_example()
 
       var myFather = new Person("John", "Doe", 50, "blue");
       var myMother = new Person("Sally", "Rally", 48, "green");
-      
-      console.log(myFather,myMother);
+      Person.prototype.Fullname = function() {return this.lastName+" "+this.firstName;}
+      console.log(myFather,myMother, myMother.Fullname());
       
       
 }
-
+ function hobbies()
+ {
+     var output = document.getElementsByTagName("Hobbies").value;
+     console.log(output);
+ }
 prototyped_example();

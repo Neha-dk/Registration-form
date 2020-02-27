@@ -1,0 +1,43 @@
+.preview-container
+{
+  border: 1px solid #000;
+  padding: 10%;
+  padding-top: 0px;
+  float: right;
+}
+.registration-container
+{
+  float: left;
+    padding: 10%;
+  padding-top: 0px;
+  border: 1px solid #000;
+}
+body .Form-class
+{
+    background-color: #d3d3d3;
+
+}
+.Form-class
+{
+    margin : 30px 30px;
+    padding: 10px;
+}
+.Form-class .fields
+{
+    margin-top: 5px;
+  
+}
+.Form-class select
+{
+    margin-top: 2PX;
+    margin-bottom: 6px;
+}
+.submit
+{
+    background-color: #003399;
+}
+
+.cancel
+{
+    background-color : #a9a9a9 ;
+}
